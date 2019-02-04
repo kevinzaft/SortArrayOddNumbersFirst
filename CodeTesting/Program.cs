@@ -16,6 +16,14 @@ namespace CodeTesting
             {
                 Array.Reverse(arry);
             }
+            //printing
+            foreach (var n in arry)
+            {
+                Console.Write(n + " ");
+            }
+            Console.WriteLine("");
+            Console.WriteLine("Press any key to exit");
+            Console.ReadKey();
         }
     }
 }
